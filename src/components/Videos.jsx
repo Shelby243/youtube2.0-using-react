@@ -7,7 +7,8 @@ const Videos = ({videos}) => {
   return (
     <Stack direction='row'
     flexWrap="wrap"
-    justifyContent="flex-start"
+    justifyContent="start"
+    alignItems="start"
     gap={2}
     >
         {videos.map((item,index)=>(
@@ -19,5 +20,6 @@ const Videos = ({videos}) => {
     </Stack>
   )
 }
+
 
 export default Videos
