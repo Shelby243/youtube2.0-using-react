@@ -40,13 +40,14 @@ const ChannelCard = ({channelDetail,marginTop}) => {
                         height:'180px',
                         width:'180px',
                         mb:2,
-                        ml:6,
+                        
                         border:'1px solid #e3e3e3'
                     }}
                     />
                     <Typography variant='h6'
                     sx={{
                         textAlign:'center',
+                        
                         
                     }}
                     >
